@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,300,400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+  integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="script" type="text/js" href="bootstrap.js">
+  
+<script src="carousel.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="bootstrap.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+ <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Shane McGrath</a>
+    </div>
+	
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Site..">
+        <li class="navigation"><a class="scroll" href="#home">Home</a>
+		</li>
+        <li class="navigation"><a class="scroll" href="#work-experience">Work Experience</a>
+		</li>
+	  
+		<li class="navigation"><a class="scroll" href="#education">Education</a>
+		</li>
+		<li class="navigation"><a class="scroll" href="#projects">Projects</a></li>
+		<li class="navigation"><a class="scroll" href="#contact-me">Contact Me</a>
+		</li>
+		</ul>
+		</div>
+      
+</nav>
+<br> 
+<br>
+<div class="col-lg-4">
+<section id="home">
+</section>
+      <div class="imgtext">
+	  <img src="Me.jpg">
+	   
+	  <h1>Shane McGrath</h1>
+	 <center><i class="fas fa-code default" font-size="30px";></i></center>
+
+      <h2>Web Developer - Software Developer - Music Production - Video Editing.</h2>
+	 </div>
+	  </div>
+	 
+	
+     <div class="col-lg-6">
+	 
+     <section id="work-experience">
+	 <center><h2>Work Experience</h2></center>
+	 </section>
+	 
+	 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title" id="myModalTitle">Arnotts-Retail Assistant</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="body1">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+ 
+	 
+	 <br>
+	 <br>
+	 
+<div class="row">
+<div class="column">
+  <button id="arnottsbtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  <center><img id="myImg" src="Arnotts.jpg" alt="Arnotts" style="width:250px" "height:250px"></center>
+  </button>
+  
+  <span class="caption">Arnotts-Retail Assistant</span>
+ <div id="arnottsinfo" class="invisible">
+  <div class="modalHeader">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+  </button>
+  <h5 class="modal-title" id="myModalTitle">Arnotts-Retail Assistant</h5>
+  </div>
+  <div class="modalBody">
+  <h4> Work Undertaken! </h4>
+  <p class="workpar">• Working in a team based environment in both uniforms and childrens-wear department.
+  <br>
+  <br>
+  • Meeting weekly sales targets for the uniforms and childrens-wear depts.
+  <br>
+  <br>
+  • Organising outgoing orders for specified customers over the phone.
+  <br>
+  <br>
+  • Ensuring the floor was kept neat and tidy.
+  <br>
+  <br>
+  • Ensuring replenishment was constantly implemented.
+  <br>
+  <br>
+  • Assisting customers in purchases and working on tills
+  <br>
+  <br>
+  • Closing up departments, ensuring all tills were closed and floor was left presentable.</p>
+  </div>
+  </div>
+  </div>
+  
+ <div class="column">
+  <button id="gamestopbtn" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  <center><img id="myImg" src="gamestop.jpg" alt="Gamestop" style="width:250px" "height:250px"></center>
+</button>  
+  <span class="caption">Gamestop-Retail Assistant</span>
+  <div id="gamestopinfo" class="invisible">
+  <div class="modalHeader">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+  </button>
+  <h5 class="modal-title" id="myModalTitle">Gamestop-Retail Assistant</h5>
+  </div>
+  <div class="modalBody">
+ 
+   <h4> Work Undertaken! </h4>
+  <p class="workpar">•Processing console and game trade ins
+     <br>
+	 <br>
+	 • Performing title on hand and stock counts daily
+	 <br>
+	 <br>
+	 • Helping customers with their queries and helping them choose what products to purchase in store. 
+	 <br>
+	 <br>
+   	 • Talking to consumers and customers over the phone. 
+     <br>
+	 <br>
+     • Till operations to help the customer with purchasing, preordering and trading in games and consoles
+     <br>
+	 <br>
+	 • Cleaning around the work area and performing everyday stock room operations. </p>
+  </div>
+  </div>
+  </div>
+  
+  <div class="column">
+   <button id="hsebtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  <center><img id="myImg" src="hse.jpg" alt="HSE" style="width:250px" "height:250px"></center>
+  </button>
+  <span class="caption">HSE-Technical Support</span>
+   <div id="hseinfo" class="invisible">
+  <div class="modalHeader">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+  </button>
+  
+  <h5 class="modal-title" id="myModalTitle">HSE Service Desk Assistant</h5>
+  </div>
+  <div class="modal-body">
+   <h4> Work Undertaken! </h4>
+  <p class ="workpar">• Working in a team based environment in both uniforms and childrens-wear department.
+•	Meeting weekly sales targets for the uniforms and childrens-wear depts.
+•	Organising outgoing orders for specified customers over the phone.
+•	Ensuring the floor was kept neat and tidy.
+•	Ensuring replenishment was constantly implemented.
+•	Assisting customers in purchases and working on tills
+•	Closing up departments, ensuring all tills were closed and floor was left presentable.</p>
+
+  </div>
+	 </div>
+	 </div>
+	</div>
+	</div>
+	
+<div class="col-lg-8">
+<section id="education"> <!---->
+</section>
+<center><h2>Education</h2></center>
+
+<div class="col-sm-5">
+<h4>2012 - 2014 Crumlin College of Further Education 
+    Crumlin College of Further Education, Crumlin Road, Dublin 12</h4>
+<h5>Year 1 Results:</h5>
+<p class="workpar">Database Methods (Distinction); Web Authoring (Merit); Computer Programming (Distinction);
+ Hardware Essentials (Merit); Networking Essentials (Distinction); Internet (Merit);
+ Work Experience (Distinction); System Software (Merit); Math for Computing (Pass); Communications (Merit); </p>
+ <h5>Year 2 Results:</h5>
+ <p class="workpar">System Maintenance (Distinction); Relational database (Merit); Object Oriented Programming (Pass);
+ Communications (Distinction); Windows Programming (Distinction); Data Communications (Pass); Networks (Merit);
+ Web Authoring (Pass);</p>
+ <hr>
+</div>
+<div class="col-sm-5">
+<h4>2014 – 2015 BSc Information Technology Management			
+Institute of Technology Tallaght, Dublin 24</h4>
+
+<h5>1st Year Modules studied:</h5> 
+<p class="workpar">Web Fundamentals (B); Database Fundamentals(B+); Learning to Learn (B+); Computer Architecture (C+);
+ Business & Information Systems (B); Object Oriented Systems Analysis (B); Software Development 1 (B-); Social Media Communications (B);
+ Operating Systems Fundamentals (C); Discrete Mathematics1 (D); Software Development 2 (C+); Statistics(C+)</p>
+ 
+<h5>2015-2016 2nd Year Modules studied:</h5>
+<p class="workpar">Networking1 (B-); Databases (B-); IT Scripting (D); Discrete Maths2 (A);
+ Web Design & Development1 (C); Software Quality Assurance (B); Financial Management (C+); Networking2 (C+);
+ Information Security (C);</p>
+<hr>
+</div>
+<div class="col-sm-5">
+<h4>2016 – 2017 BSc Information Technology Management			
+Institute of Technology Tallaght, Dublin 24</h4>
+
+<h5>3nd Year Modules studied:</h5> 
+<p class="workpar">Networking 3 (B); Advanced Databases (C); Web Design & Development (C);
+Operating Systems (B-); Innovation & Entrepreneurship (B); Cloud Services (C);
+ Industry Project (B); Experiential Learning (PS);</p>
+</div>
+<div class="col-sm-5">
+<h4>2018 – 2019 BSc Information Technology Management			
+Institute of Technology Tallaght, Dublin 24</h4>
+
+<h5>4th Year Modules studied:</h5>
+<p class="workpar"> TO BE DETERMINED:  JUNE 2019.
+</div>
+</div>
+</div>
+
+<div class="col-lg-8">
+<section id="projects">
+</section>
+     <center><h2>Projects</h2></center>
+	 	<div class="v-centered">
+		<div class="carousel">
+			<div class="roll">
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/1.jpg" alt="Project img 1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/2.jpg" alt="Project img 2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/3.jpg" alt="Project img 3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/4.jpg" alt="Project img 4">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/5.jpg" alt="Project img 5">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/6.jpg" alt="Project img 6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/7.jpg" alt="Project img 7">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/8.jpg" alt="Project img 8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+				<div class="project">
+					<img src="http://ibrahimjabbari.com/english/images/9.jpg" alt="Project img 9">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia in mi a rhoncus. Suspendisse maximus leo ac lorem interdum volutpat.</p>
+				</div>
+			</div>
+			<div class="sections">
+			</div>
+			<button class="navscroll" id="nav-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+			<button class="navscroll" id="nav-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+		</div>
+	</div>
+	 </div> 
+</div>
+
+<!-- Modal -->
+
+<footer>
+<div class="col-sm-4 ">
+<section id="contact-me"> <!---->
+</section>
+<h3>Contact us</h3>
+<br>
+<h4>Address and contact info</h4>
+</div>
+
+<div class="col-sm-4">
+<h3>Connect</h3>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter" onclick=window.open('https://twitter.com/?lang=en')></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-LinkedIn"></a>
+<a href="#" class="fa fa-Instagram"></a>
+</div>
+
+<div class="col-sm-4">
+
+</div>
+</footer>
+</body>
+</html>
